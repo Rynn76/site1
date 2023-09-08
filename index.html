@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+</head>
+<body>
+    <h1>Title 1</h1>
+    <p>This is my text <strong>This is strong text</strong> <b>This is the bold text</b> <i>Texte italique</i> <em>This is emphzied text</em><br> Une autre ligne <hr></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, possimus necessitatibus molestias officia enim neque sint fugit optio, dolore cum consequatur, obcaecati corporis commodi nihil alias doloremque sequi accusamus porro.</p>
+    <h4 title="hover to see text" style="color: rgb(75, 86, 186);" id="title4">this is title 4</h4>
+    <ol>
+       <li>Item 1</li>
+       <li>Item 2</li>
+       <li>Item 3</li>
+    </ol>
+    <ul type="disc">
+       <li>Item 1</li>
+       <li>Item 2</li>
+       <li>Item 3</li>
+    </ul>
+    <dl>
+        <dt>Item 1</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptates minima nemo, nobis enim aliquid odio culpa doloribus! Veritatis unde itaque molestiae, sit eius impedit expedita? Quaerat nobis illo itaque!</dd>
+        <dt>Item 2 </dt>
+        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab tenetur vel incidunt fuga, quia accusamus dolore porro at totam soluta eaque numquam nihil illum beatae dignissimos aspernatur. Commodi, dolorum voluptatem?</dd>
+    </dl>
+    <a href="https://www.google.com" style="color: aqua;"> Go to google website</a>
+    <br>
+    <a href="/page2.html"> Go to page 2</a>
+    <br>
+    <a href="#title4">Retourner a l'endroit dont le id est title4</a>
+    <div style="background-color:aqua;">
+       <h1>Title 2</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae repudiandae et architecto officiis odit, veritatis nulla eveniet obcaecati repellendus ad mollitia illum aut, iure eius cum quas? Deleniti, ex. Sint!</p>
+    </div>
+    <h1>Les multimedias</h1>
+    <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80"width="400px" alt="Chargement">
+    <img src="/mustang.jpg" alt="Chargement"width="200px">
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SCQauw5VVDo?si=GM0reZX5-spD-KTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <audio controls>
+        <source src="/sonnerie-totally-spies.mp3" type="audio/mp3">
+    </audio>
+   <table>
+     <thead>
+        <tr>
+          <th>Prenom</th>
+          <th>Age</th>
+          <th>Classe</th>
+        </tr>
+     </thead>
+     <tbody>
+      <tr>
+         <td>Rayan</td>
+         <td>20 ans</td>
+         <td>2 us</td>
+      </tr> 
+      <tr>
+        <td>Kawthar</td>
+        <td>16ans</td>
+        <td>2 AS</td>
+      </tr>
+      <tr>
+        <td>Anfal</td>
+        <td>15 ans</td>
+        <td>4 Am</td>
+      </tr>
+     </tbody>
+    <tfoot>
+        <tr>
+            <td>Totale : 3</td>
+        </tr>
+    </tfoot>
+   </table>
+
+    <h3> Semantics elements pour la lisibilité</h3>
+   <header> 
+     <h1>Bienvenu, voici l'antete de notre Page (header)</h1>
+   </header>
+   <main>
+      <article>
+        <h1>Article 1</h1>
+        <p>Le main est divisé en plusieurs article </p>
+        <section id="sect1">
+          <p>Et les articles sont divisé en plusieurs section</p>
+        </section>
+        <section id="sect2">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad quisquam ullam esse vel incidunt qui repellat, enim ut molestias nam minima vero ex mollitia, rerum quis consequatur voluptates dignissimos.</p>
+        </section>
+      </article>
+      <article>
+        <h1>Article 2</h1>
+        <section><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis soluta rem nam ipsam eum quam enim sequi! Nisi, cumque culpa voluptate debitis numquam quasi ea delectus porro quis illo veritatis.</p></section>
+      </article>
+    </main>
+    <aside>
+    <ul>
+    <li> <a href="#sect2">Aller a la section 2</a></li>
+    <li> </li>
+    </ul>
+   </aside>
+   <footer>
+    <h1>Lien de Description, information (footer)</h1>
+    <p>Les information du site se trouve dans cette balises</p>
+   </footer>
+   <h2>Les formulaires</h2>
+    <form action="/page2.html">
+      <label for="username">Nom</label>
+    <input type="text" name="username" id="username" placeholder="Nom">
+    <br>
+    <label for="password">Mot de passe : </label>
+    <input type="password" name="password" id="password" placeholder="Mot de passe">
+    <br>
+    <label for="datedenaissance">Entrer votre date de naissance :</label>
+    <input type="date" name="datedenaissance" id="datedenaissance">
+    <br>
+    <select name="pays" id="pays">
+    <option value="Dz">Algerie</option>
+    <option value="FR">France</option>
+    <option value="CN">Canada</option>
+  </select>
+  <br>
+  <label for="homme">Homme</label>
+  <input type="radio" name="Homme" id="genre" value="Homme">
+  <label for="femme">Femme</label>
+  <input type="radio" name="Femme" id="genre" value="Femme" >
+    <br>
+    <input type="submit" value="Se connecter">
+    <br>
+     <button type="submit">S'inscrire</button>
+  </form>
+</body>
+</html>
